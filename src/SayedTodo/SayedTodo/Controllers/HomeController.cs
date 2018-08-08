@@ -7,8 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using SayedTodo.Models;
 
 namespace SayedTodo.Controllers {
-    public class HomeController : Controller {
+    public class HomeController : BaseController {
         public IActionResult Index() {
+            string username = GetUsername();
+
+            ViewData["username"] = username;
             return View();
         }
 
