@@ -11,4 +11,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\lib\normalize\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SayedTodo.Shared\SayedTodo.Shared.csproj" />
+  </ItemGroup>
 </Project>

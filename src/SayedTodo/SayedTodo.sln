@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayedTodo", "SayedTodo\SayedTodo.csproj", "{532019C0-8E4A-47BE-BD52-43908FE9D302}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayedTodo.Shared", "SayedTodo.Shared\SayedTodo.Shared.csproj", "{1C0CB809-D758-4179-93D0-61D9CC0259F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{532019C0-8E4A-47BE-BD52-43908FE9D302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532019C0-8E4A-47BE-BD52-43908FE9D302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532019C0-8E4A-47BE-BD52-43908FE9D302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0CB809-D758-4179-93D0-61D9CC0259F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0CB809-D758-4179-93D0-61D9CC0259F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0CB809-D758-4179-93D0-61D9CC0259F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0CB809-D758-4179-93D0-61D9CC0259F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
