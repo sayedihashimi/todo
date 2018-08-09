@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SayedTodo.Services;
 using SayedTodo.Shared;
 
 namespace SayedTodo {
@@ -30,6 +31,7 @@ namespace SayedTodo {
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<IFileHelper, FileHelper>();
+            services.AddScoped<ITodoSetData, TodoSetDataFromJsonFiles>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

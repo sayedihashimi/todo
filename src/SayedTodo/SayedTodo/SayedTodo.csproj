@@ -10,6 +10,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\lib\normalize\" />
+    <Folder Include="wwwroot\todosets\" />
+    <Folder Include="wwwroot\todosets\user-7296\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SayedTodo.Shared\SayedTodo.Shared.csproj" />

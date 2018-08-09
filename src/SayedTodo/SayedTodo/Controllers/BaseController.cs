@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace SayedTodo.Controllers {
     public class BaseController : Controller {
 
-        public const string UsernameCookieKey = "username";
+        protected const string UsernameCookieKey = "username";
 
         // TODO: Perhaps this should be implemented in middleware and added to all requests?
-        public string GetUsername(/*HttpRequest request, HttpResponse outgoingResponse*/){
+        protected string GetUsername(/*HttpRequest request, HttpResponse outgoingResponse*/){
             // see if there is already a cookie in the request, if so return it. If not create and add to response.
             string username = null;
             var usernamecookie = this.Request.Cookies[UsernameCookieKey];

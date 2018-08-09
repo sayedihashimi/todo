@@ -1,0 +1,79 @@
+﻿{
+  "SetName": "todo list",
+  "Items": [
+    {
+      "Id":"ba895401-ed4c-487d-bd26-9dc045641ac9",
+      "Order": "1",
+      "Completed": "false",
+      "Text": "Clean toilets"
+    },
+    {
+      "Id": "80cf052d-2678-473c-a8df-8325c91927b2",
+      "Order": "2",
+      "Completed": "false",
+      "Text": "Clean shower"
+    },
+    {
+      "Id": "58444bdc-ec2e-4e78-bc6b-8f137d89a9cb",
+      "Order": "3",
+      "Completed": "true",
+      "Text": "Get coffee"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

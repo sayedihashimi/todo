@@ -28,3 +28,6 @@ header{
 .placeholder {
     font-style: italic;
 }
+.todoitem {
+    margin-right: 5px;
+}
